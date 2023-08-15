@@ -1,0 +1,98 @@
+
+
+body {
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: 2.5% auto;
+    flex-direction: column;
+}
+
+.form .pre {
+    color: rgb(255, 8, 8);
+}
+
+.form .end {
+    color: rgb(14, 245, 168);
+}
+
+.form-signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    box-shadow: 1px 2px #848383;
+}
+
+
+.form h2, .form h3 {
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.form-name {
+    color: violet;
+}
+
+form {
+    display: inline-block;
+}
+
+.form-signup .form-name {
+    font-size: 1.5rem;
+}
+
+form .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0.5rem;
+    flex-direction: column;
+}
+
+form .form-group label {
+    margin: 0.5rem 0;
+}
+
+form .form-group input {
+    padding: 0.5rem;
+}
+
+.form-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-nav a {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.form-nav a:hover {
+    color: red;
+}
+
+.btn {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.btn .btn-signup {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    background-color: #2f6bff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.btn .btn-signup:hover {
+    background-color: aliceblue;
+    color: red;
+}
